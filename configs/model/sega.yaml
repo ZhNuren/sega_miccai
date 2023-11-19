@@ -1,0 +1,7 @@
+_target_: src.models.sega_module_monai.SegaModule
+
+model: "swin"
+lr : 1e-4
+weight_decay: 1e-5
+roi: ${data.roi}
+max_epochs: ${trainer.max_epochs}
